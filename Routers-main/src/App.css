@@ -1,0 +1,94 @@
+*{padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.App{
+  overflow-x: hidden;
+ display: flex;
+  flex-direction: column;
+ margin: 0 auto; 
+ gap: 90px;
+}
+.Navigation{
+  height: 100px;
+  width: 100vw;
+  border: 1px solid rgb(75, 76, 78);
+  display: flex;
+  
+  justify-content: space-around;
+  align-items: center;
+}
+.Navigation img{
+  width: 100px;
+  height: 60px;
+
+}
+.Navigation input{
+  padding :10px 20pX;
+  font-size: 20px;
+  min-width: 30vw;
+  border-radius: 4px;
+}
+.movies{
+
+display: flex;
+
+align-items: center;
+gap: 20px;
+flex-wrap: wrap; 
+justify-content: flex-start;
+}
+.card
+{
+width: 400px;
+ height: 500px; 
+ margin-left:2px ;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ flex-wrap: wrap;
+ align-items: center;
+ border-radius: 5px;
+ border: 3px solid rgba(92, 92, 92, 0.048);
+ }
+
+ .card:hover {
+  box-shadow: -1px 4px 56px -15px rgba(0, 0, 0, 0.62);
+  -webkit-box-shadow: -1px 4px 56px -15px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: -1px 4px 56px -15px rgba(0, 0, 0, 0.62);
+}
+
+
+
+
+
+.card img{
+  width: 350px;
+  height: 210px;
+}
+
+
+.carte{
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.home{
+  color: brown;
+  margin: 0 auto;
+}
+.about{
+color: brown;
+margin: 0 auto;
+
+}
+.series{
+  color: brown;
+  margin: 0 auto;
+  
+  }
+
